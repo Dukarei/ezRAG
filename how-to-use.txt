@@ -1,0 +1,16 @@
+
+you could also use google colab instead of running locally, to do that you must run:
+!pip install colab-xterm
+%load-ext collabxterm
+%xterm
+then install ollama and run ollama serve within the terminal opened to allow you to pull the necessary models and run
+all other text within a code cell.
+and of course input the pdf files into /home/ on the notebook 
+
+
+1. Install ollama
+2. Run ollama pull for llama 3.1:8b and nomic-text-embed:latest, although any llm and text-embed model will do as long as you replace them in the models section of the code.
+3. Pip install the following packages: Lanchain, langchain_core, langchain_community, pypdf, ollama, chromadb, -qU langchain-ollama
+4. Input your chosen pdfs into the same file that is assigned to the sourceDirectory string variable within the code
+5. Run the code down to the question bit
+6. Iteratively change questions to query the model 
