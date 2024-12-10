@@ -1,0 +1,7 @@
+1.allow db to save
+2. set up program such that it can run as an API/command line tool
+-------INTENDED USAGE---------
+1.program startup, 
+2.ask if you want to train from a directory or if you want to use a pre existing DB, 
+3.allow recursive questioning and 
+4.if(!savedData) then prompt if they want to save the DB before close.
