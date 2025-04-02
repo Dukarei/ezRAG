@@ -1,3 +1,5 @@
+
+#NOTE: this is designed to be run bit-by bit in a google colab notebook 
 #code to install imports
 !pip install langchain
 !pip install langchain_core
@@ -7,7 +9,7 @@
 !pip install chromadb
 !pip install -qU langchain-ollama
 
-#code to allow running terminal to install and serve ollama for usage
+#code to allow running terminal in a colab notebook to install and serve ollama for usage
 """
 1. Install ollama
 2. Run ollama pull for llama 3.1:8b and nomic-text-embed:latest, although any llm and text-embed model will do as long as you replace them in the models section of the code.
